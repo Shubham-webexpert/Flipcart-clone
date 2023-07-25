@@ -38,7 +38,7 @@ const Header = () => {
     return (
         <>
             <StyledHeader>
-                <Toolbar style={{ minHeight: 55 }}>
+                <Toolbar style={{ minHeight: 54 }}>
                     <Component>
                         <img src={logoURL} alt="logo" style={{ width: 75 }} />
                         <Box style={{ display: "flex", alignItems: "center" }}>

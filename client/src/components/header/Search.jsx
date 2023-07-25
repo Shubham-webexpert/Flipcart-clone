@@ -9,18 +9,19 @@ const SearchContainer = styled(Box)`
     border-radius:2px;
     margin-left:10px;
     display:flex;
-    justify-content:space-between;
     align-items:center;
 `;
 
 const InputSearchBase = styled(InputBase)`
     padding-left:20px;
     width:100%;
+    font-size:unset;
 `;
 
 const SearchIconWrapper = styled(Box)`
     color:blue;
     padding:5px;
+    display:flex;
 `
 const Search = () => {
     return (
