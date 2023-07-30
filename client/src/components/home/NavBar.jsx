@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box,styled } from '@mui/material';
+import { Box,Typography,styled } from '@mui/material';
 import { navData } from '../constants/data';
 
 const HomeNavBar=styled(Box)`
@@ -10,17 +10,23 @@ const HomeNavBar=styled(Box)`
 
 const HomeNavBarItems=styled(Box)`
     padding:12px 8px;
+    text-align:center;
+`
+
+const Text=styled(Typography)`
+    font-size:14px;
+    font-weight:600;
+    font-family:inherit;
 `
 
 const NavBar = () => {
-console.log("navber rendered");
   return (
     <HomeNavBar>
         {
-            navData.map(({url,text})=>(
-                <HomeNavBarItems>
-                    <img src={url} alt={text} style={{width:50,height:50}}/>
-                    <p>{text}</p>
+            navData.map(({url,text},index)=>(
+                <HomeNavBarItems key={index}>
+                    <img src={url} alt={text} style={{width:64}}/>
+                    <Text>{text}</Text>
                 </HomeNavBarItems>
             ))
         }

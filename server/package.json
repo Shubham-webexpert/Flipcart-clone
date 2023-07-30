@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend for flipcart clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham-webexpert/Flipcart-clone.git"
+  },
+  "keywords": [
+    "flipcart",
+    "clone"
+  ],
+  "author": "Shubham Bhagwat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubham-webexpert/Flipcart-clone/issues"
+  },
+  "homepage": "https://github.com/Shubham-webexpert/Flipcart-clone#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
